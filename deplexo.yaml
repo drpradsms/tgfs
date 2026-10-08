@@ -1,4 +1,3 @@
-framework: python # or go / node, depending on the tool you chose
 port: 8080        # The internal port your WebDAV server listens to
 install: poetry install # Or npm ci / go build
 start: poetry run python main.py
